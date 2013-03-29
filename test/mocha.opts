@@ -1,0 +1,4 @@
+--require should
+--reporter spec
+--timeout 3000
+--slow 300

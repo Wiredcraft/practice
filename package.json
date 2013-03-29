@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "devo.ps",
+    "email": "info@devo.ps",
+    "url": "https://github.com/devo-ps"
+  },
+  "name": "practice",
+  "description": "For practice.",
+  "version": "0.0.1",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devo-ps/practice.git"
+  },
+  "url": "https://github.com/devo-ps/practice",
+  "dependencies": {
+    "debug": "~0.7.2",
+    "deferred": "~0.6.3",
+    "express": "~3.0.6",
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "request": "2.x",
+    "should": "1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.mocha.js"
+  }
+}
